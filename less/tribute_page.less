@@ -1,0 +1,62 @@
+* {
+    color: #FFFFFF;
+    font-family: Georgia, monospace;
+}
+
+body {
+    margin: 0;
+    background: #1C1C1C;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    
+    #head {
+        padding: 25px 0;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        color: #A7A7A7;
+        background: #111111;
+    }
+
+    #block1 {
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 15%;
+
+        #picBlock {
+            width: 40%;
+            padding: 50px;
+
+            img {
+                width: 100%;
+                height: fit-content;
+            }
+        }
+
+        #introduction {
+            width: 65%;
+            text-align: justify;
+            letter-spacing: 1px;
+            color: #C9C9C9;
+
+            button {
+                width: 125px;
+                padding: 10px;
+                margin-top: 15px;
+                background: #3F62B5;
+                border: 2px solid #3F62B5;
+                letter-spacing: 1px;
+
+                &:active {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}
